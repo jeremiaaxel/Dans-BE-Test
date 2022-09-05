@@ -6,6 +6,7 @@ Dev: Dijalankan menggunakan IDE IntelliJ
 
 ## Available APIs
 POST `<base_url>/users/register`
+
 Request body:
 ```
 {
@@ -15,7 +16,9 @@ Request body:
   "email":"email@email.com"
 }
 ```
+
 POST `<base_url>/users/login`
+
 Request body:
 ```
 {
@@ -23,5 +26,7 @@ Request body:
   "password":"password"
 }
 ```
+
 GET `<base_url>/jobs/`
+
 GET `<base_url>/jobs/{id}`
